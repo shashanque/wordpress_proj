@@ -1,0 +1,272 @@
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://pingendo.github.io/pingendo-bootstrap/themes/default/bootstrap.css" rel="stylesheet" type="text/css">
+	
+	<style>
+	
+div.wrapper{
+	float:left; /* important */
+	position:relative; /* important(so we can absolutely position the description div */
+}
+div.description{
+	position:absolute; /* absolute position (so we can position it where we want)*/
+	bottom:0px; /* position will be on bottom */
+	left:0px;
+	width:100%;
+	/* styling bellow */
+	background-color:black;
+	font-family: 'tahoma';
+	font-size:15px;
+	color:white;
+	 /* transparency */
+	filter:alpha(opacity=60); /* IE transparency */
+	 border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+p.description_content{
+	padding:10px;
+	margin:0px;
+}
+
+
+    /*==========  Mobile First Method  ==========*/
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (min-width : 320px) {
+        
+		
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 480px) {
+	
+	
+	div.wrapper{
+	
+    display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    -webkit-transition: border .2s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out;
+}
+	
+	div.description{font-size: 14px;
+    padding: 10px;
+    font-style: italic;
+    margin: 0;
+    display: block;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;}
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+	div.wrapper{
+	float:left; /* important */
+	position:relative; /* important(so we can absolutely position the description div */
+}
+div.description{
+	position:absolute; /* absolute position (so we can position it where we want)*/
+	bottom:0px; /* position will be on bottom */
+	left:0px;
+	width:100%;
+	/* styling bellow */
+	background-color:black;
+	font-family: 'tahoma';
+	font-size:15px;
+	color:white;
+	 /* transparency */
+	filter:alpha(opacity=60); /* IE transparency */
+}
+p.description_content{
+	padding:10px;
+	margin:0px;
+}
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+div.wrapper{
+	float:left; /* important */
+	position:relative; /* important(so we can absolutely position the description div */
+}
+div.description{
+	position:absolute; /* absolute position (so we can position it where we want)*/
+	bottom:0px; /* position will be on bottom */
+	left:0px;
+	width:100%;
+	/* styling bellow */
+	background-color:black;
+	font-family: 'tahoma';
+	font-size:15px;
+	color:white;
+	 /* transparency */
+	filter:alpha(opacity=60); /* IE transparency */
+}
+p.description_content{
+	padding:10px;
+	margin:0px;
+}
+	
+    }
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+	div.wrapper{
+	float:left; /* important */
+	position:relative; /* important(so we can absolutely position the description div */
+}
+div.description{
+	position:absolute; /* absolute position (so we can position it where we want)*/
+	bottom:0px; /* position will be on bottom */
+	left:0px;
+	width:100%;
+	/* styling bellow */
+	background-color:black;
+	font-family: 'tahoma';
+	font-size:15px;
+	color:white;
+	 /* transparency */
+	filter:alpha(opacity=60); /* IE transparency */
+}
+p.description_content{
+	padding:10px;
+	margin:0px;
+}
+
+    }
+
+	</style>
+	
+  </head><body>
+    <div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="btn-group btn-group-lg">
+              <a class="btn btn-danger dropdown-toggle" data-toggle="dropdown">Categories&nbsp;<span class="fa fa-caret-down"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li>
+                  <a href="#">wordpress</a>
+                </li>
+                <li>
+                  <a href="#">Freelancer</a>
+                </li>
+                <li>
+                  <a href="#">Javascript</a>
+                </li>
+                <li>
+                  <a href="#">Web design inspiration</a>
+                </li>
+                <li>
+                  <a href="#">Html &amp; Css</a>
+                </li>
+                <li>
+                  <a href="#">Jquery</a>
+                </li>
+                <li>
+                  <a href="#">Online Marketing</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+	
+		  
+            <div class="thumbnail wrapper">
+
+              <img src="SplitShire-7151.jpg" class="img-responsive"> 
+
+              <div class="caption description" style="color:white">  
+                <h3>Thumbnail label</h3>
+                <p class="description_content">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id
+                  elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies
+                  vehicula ut id elit.</p>
+              </div>
+
+
+			  </div>
+			
+          </div>
+          <div class="col-md-4">
+            <h1>what's new&nbsp;</h1>
+            <a href="#"><img src="img/ads.png" class="img-responsive"></a>
+            <hr>
+            <ul class="media-list">
+              <li class="media">
+                <a class="pull-left" href="#"><img class="media-object" src="SplitShire-7151.jpg" height="64" width="64"></a>
+                <div class="media-body">
+                  <h2 class="media-heading">Media heading</h2>
+                </div>
+              </li>
+              <li class="media">
+                <a class="pull-left" href="#"><img class="media-object" src="SplitShire-7151.jpg" height="64" width="64"></a>
+                <div class="media-body">
+                  <h2 class="media-heading">Media heading</h2>
+                </div>
+              </li>
+              <li class="media">
+                <a class="pull-left" href="#"><img class="media-object" src="SplitShire-7151.jpg" height="64" width="64"></a>
+                <div class="media-body">
+                  <h2 class="media-heading">Media heading</h2>
+                </div>
+              </li>
+              <li class="media">
+                <a class="pull-left" href="#"><img class="media-object" src="SplitShire-7151.jpg" height="64" width="64"></a>
+                <div class="media-body">
+                  <h2 class="media-heading">Media heading</h2>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <img src="http://pingendo.github.io/pingendo-bootstrap/assets/placeholder.png" class="img-responsive">
+            <h2>A Title</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisici elit,
+              <br>sed eiusmod tempor incidunt ut labore et dolore magna aliqua.
+              <br>Ut enim ad minim veniam, quis nostrud</p>
+          </div>
+          <div class="col-md-3">
+            <img src="http://pingendo.github.io/pingendo-bootstrap/assets/placeholder.png" class="img-responsive">
+            <h2>A title</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisici elit,
+              <br>sed eiusmod tempor incidunt ut labore et dolore magna aliqua.
+              <br>Ut enim ad minim veniam, quis nostrud</p>
+          </div>
+          <div class="col-md-3">
+            <img src="http://pingendo.github.io/pingendo-bootstrap/assets/placeholder.png" class="img-responsive">
+            <h2>A title</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisici elit,
+              <br>sed eiusmod tempor incidunt ut labore et dolore magna aliqua.
+              <br>Ut enim ad minim veniam, quis nostrud</p>
+          </div>
+          <div class="col-md-3"><ul class="lead list-group"><li class="list-group-item">Cras justo odio</li><li class="list-group-item">Dapibus ac facilisis in</li><li class="list-group-item">Morbi leo risus</li><li class="list-group-item">Porta ac consectetur ac</li><li class="list-group-item">Vestibulum at eros</li></ul></div>
+        </div>
+      </div>
+    </div>
+  
+
+</body></html>

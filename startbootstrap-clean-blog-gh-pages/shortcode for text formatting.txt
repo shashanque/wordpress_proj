@@ -1,0 +1,10 @@
+[shortcode in wordpress] for text formattingd || CHANGE THE GLOBAL css in style.css for that  
+
+				1. heading  h1 h2 h3 h4 h5 h6 > weight > class
+				2. blockcode syling done
+				3. centering div ,image, text, video
+
+				
+				main shorcode
+				1. video embeds.
+				2. 
